@@ -6,7 +6,7 @@ import collections
 import numpy as np
 
 try:
-    conn = psycopg2.connect("dbname='Testing' user='postgres' host='localhost' password='Popdiv99@12345'")
+    conn = psycopg2.connect("dbname='Testing' user='postgres' host='localhost' password='Popd'")
 except:
     print ("I am unable to connect to the database")
 cur = conn.cursor()
