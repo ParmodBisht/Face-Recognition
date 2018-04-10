@@ -17,7 +17,7 @@ obama_face_encoding = face_recognition.face_encodings(obama_image)[0]
 
 
 try:
-    conn = psycopg2.connect("dbname='Testing' user='postgres' host='localhost' password='Popdiv99@12345'")
+    conn = psycopg2.connect("dbname='Testing' user='postgres' host='localhost' password='Pop'")
 except:
     print ("I am unable to connect to the database")
 
